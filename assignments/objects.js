@@ -59,14 +59,19 @@ const interns = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(interns.intern01.name);
 
 // Kennan's ID
+console.log(interns.intern02.id);
 
 // Keven's email
+console.log(interns.intern03.email);
 
 // Gannie's name
+console.log(interns.intern04.name);
 
 // Antonietta's Gender
+console.log(interns.intern05.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
