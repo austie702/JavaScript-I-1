@@ -1,5 +1,8 @@
 // Let's get some practice writing a few objects for a new group of interns at a small business.
 
+console.log();
+console.log('* * * Objects Block -- START * * *');
+
 // ==== Challenge 1: Writing Objects ==== 
 // HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
 
@@ -19,6 +22,38 @@ const example = {
 
 // Write your intern objects here:
 
+const interns = {
+  intern01: {
+    "id": 1, 
+    "email": "mmelloy0@psu.edu", 
+    "name": "Mitzi", 
+    "gender": "F"
+  },
+  intern02: {
+    "id": 2,
+    "email": "kdiben1@tinypic.com",
+    "name": "Kennan",
+    "gender": "M"
+  },
+  intern03: {
+    "id": 3,
+    "email": "kmummery2@wikimedia.org",
+    "name": "Keven",
+    "gender": "M"
+  },
+  intern04: {
+    "id": 4,
+    "email": "gmartinson3@illinois.edu",
+    "name": "Gannie",
+    "gender": "M"
+  },
+  intern05: {
+    "id": 5,
+    "email": "adaine5@samsung.com",
+    "name": "Antonietta",
+    "gender": "F"
+  }
+}
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
@@ -62,3 +97,8 @@ const parent = {}
 // Have the child speak
 
 // Have the grandchild speak
+
+
+
+console.log('* * * Objects Block -- END * * *');
+console.log();
