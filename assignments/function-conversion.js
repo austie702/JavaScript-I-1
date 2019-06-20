@@ -45,3 +45,6 @@ subtract(1 , 2);
 exampleArray = [1,2,3,4];
 let triple = (exampleArray) => exampleArray.map(num => num * 3);
 console.log(triple(exampleArray));
+
+console.log('* * * Function-Conversion Block -- END * * *');
+console.log();
