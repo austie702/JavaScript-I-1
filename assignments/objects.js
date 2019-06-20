@@ -23,35 +23,41 @@ const example = {
 // Write your intern objects here:
 
 const interns = {
-  intern01: {
+  mitzi: {
     "id": 1, 
     "email": "mmelloy0@psu.edu", 
     "name": "Mitzi", 
     "gender": "F"
   },
-  intern02: {
+  kennan: {
     "id": 2,
     "email": "kdiben1@tinypic.com",
     "name": "Kennan",
-    "gender": "M"
+    "gender": "M",
+    speak: function() {
+      console.log("Hello, my name is Kennan!")
+    }
   },
-  intern03: {
+  keven: {
     "id": 3,
     "email": "kmummery2@wikimedia.org",
     "name": "Keven",
     "gender": "M"
   },
-  intern04: {
+  gannie: {
     "id": 4,
     "email": "gmartinson3@illinois.edu",
     "name": "Gannie",
     "gender": "M"
   },
-  intern05: {
+  antonietta: {
     "id": 5,
     "email": "adaine5@samsung.com",
     "name": "Antonietta",
-    "gender": "F"
+    "gender": "F",
+    multiplyNums: function(num1 , num2) {
+      return num1 * num2;
+    }
   }
 }
 
@@ -59,26 +65,30 @@ const interns = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-console.log(interns.intern01.name);
+console.log(interns.mitzi.name);
 
 // Kennan's ID
-console.log(interns.intern02.id);
+console.log(interns.kennan.id);
 
 // Keven's email
-console.log(interns.intern03.email);
+console.log(interns.keven.email);
 
 // Gannie's name
-console.log(interns.intern04.name);
+console.log(interns.gannie.name);
 
 // Antonietta's Gender
-console.log(interns.intern05.gender);
+console.log(interns.antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
+console.log(interns.kennan.speak());
+
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
+
+console.log(interns.antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
