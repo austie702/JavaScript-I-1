@@ -9,10 +9,14 @@ console.log('* * * Function-Conversion Block -- START * * *');
 // myFunction();
 const myFunction = () => {console.log('Function was invoked!')}
 myFunction();
+
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
+
+let anotherFunction = (param) => param;
+anotherFunction('Example');
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
