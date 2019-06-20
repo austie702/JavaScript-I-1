@@ -7,7 +7,7 @@ console.log('* * * Function-Conversion Block -- START * * *');
 // console.log("Function was invoked!");
 // };
 // myFunction();
-const myFunction = () => {console.log('Function was invoked!')}
+let myFunction = () => {console.log('Function was invoked!')}
 myFunction();
 
 // let anotherFunction = function (param) {
@@ -22,6 +22,9 @@ anotherFunction('Example');
 //   return param1 + param2;
 // };
 // add(1,2);
+
+let add = (param1, param2) => param1 + param2;
+add(1 , 2);
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
