@@ -1,10 +1,14 @@
 // Take the commented ES5 syntax and convert it to ES6 arrow Syntax
 
+console.log();
+console.log('* * * Function-Conversion Block -- START * * *');
+
 // let myFunction = function () {
 // console.log("Function was invoked!");
 // };
 // myFunction();
-
+const myFunction = () => {console.log('Function was invoked!')}
+myFunction();
 // let anotherFunction = function (param) {
 //   return param;
 // };

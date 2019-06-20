@@ -66,7 +66,7 @@ let inventory = [
 // ==== Challenge 1 ====
 // The dealer can't recall the information for a car with an id of 33 on his lot. Help the dealer find out which car has an id of 33 by logging the car's year, make, and model in the console log provided to you below:
 console.log();
-console.log('* * * Arrays Block -- START * * *')
+console.log('* * * Arrays Block -- START * * *');
 let yearLookup = '';
 let makeLookup = '';
 let modelLookup = '';
@@ -120,6 +120,6 @@ for (let i = 0; i < inventory.length; i++) {
 }
 console.log(BMWAndAudi);
 
-console.log('* * * Arrays Block -- END * * *')
+console.log('* * * Arrays Block -- END * * *');
 console.log();
 
